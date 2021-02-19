@@ -1,6 +1,8 @@
 # Heft React Example
 
-An example for inner loop development with Heft
+An example for inner loop development with Heft.
+
+Preview the site here: https://halfnibble.github.io/heft-react-example/dist/
 
 ### Commands
 
