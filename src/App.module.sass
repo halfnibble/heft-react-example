@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:ital,wght@0,700;1,400&display=swap')
+
+// Colors
+// ======
+$white: #FFFFFF
+$grey: #EBE7E7
+
+// Responsive Classes
+// ==================
+$mobileMax: 699px
+$desktopMin: 700px
+
+.grow
+  flex: 1
+
+.mobileOnly
+  @media screen and (min-width: $desktopMin)
+    display: none !important
+    
+.desktopOnly
+  @media screen and (max-width: $mobileMax)
+    display: none !important
+
+// Specific Classes
+// ================
+.banner
+  background-color: $grey !important
+  text-align: center
+  padding: 20px
+  
+.boldFont
+  font-family: 'Bebas Neue', "Roboto", "Helvetica", "Arial", sans-serif !important
+
+.pageContent
+  margin: 20px 20px 80px
+  padding: 4px 20px 15px
+
+.appBar
+  top: auto !important
+  bottom: 0

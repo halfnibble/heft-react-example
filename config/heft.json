@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/heft/heft.schema.json",
+
+  "eventActions": [
+    {
+      "actionKind": "deleteGlobs",
+      "heftEvent": "clean",
+      "actionId": "defaultClean",
+      "globsToDelete": ["dist", "lib", "lib-commonjs", "temp"]
+    },
+    {
+      "actionKind": "copyFiles",
+      "heftEvent": "bundle",
+      "actionId": "copyImages",
+      "copyOperations": [
+        {
+          "destinationFolders": ["dist"],
+          "sourceFolder": "src",
+          "fileExtensions": [".jpg", ".png", ".svg", ".ico"]
+        }
+      ]
+    }
+  ],
+
+  "heftPlugins": []
+}

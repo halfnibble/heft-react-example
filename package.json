@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "heft-react-example",
+  "version": "1.0.0",
+  "description": "An example for inner loop development with Heft",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "heft build --clean",
+    "start": "heft start --clean",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Joshua Wedekind 🎃 <josh@halfnibble.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rushstack/heft": "^0.24.2",
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.0",
+    "@types/webpack-env": "^1.16.0",
+    "autoprefixer": "^10.2.4",
+    "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.6",
+    "postcss-loader": "^4.2.0",
+    "prettier": "^2.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "typescript": "4.1.5",
+    "webpack": "^4.44.2"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2"
+  }
+}
